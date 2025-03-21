@@ -1,19 +1,24 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Quote of the day</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <link rel="shortcut icon" href="css/logo.jpeg" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-  </head>
-  <body>
+</head>
+<body>
+  
+  <img class="bgimg" src="css/background.jpeg" alt="">
     <div class="container">
-      <h1>Quote of the day</h1>
-      <div class="quote-container">
-        <p id="quote"></p>
-        <p id="author"></p>
-      </div>
-      <button onclick="getQuote()">New quote</button>
+        <h1>Quote of the Day</h1>
+        <div class="quote-container">
+            <p id="quote">Loading quote...</p>
+            <p id="author"></p>
+        </div>
+        <button onclick="getQuote()">New Quote</button>
     </div>
 
     <script src="script.js"></script>
-  </body>
+</body>
 </html>
